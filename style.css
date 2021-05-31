@@ -1,0 +1,80 @@
+body {
+    margin: 150px 350px;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.patternTop {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left:-5%;
+    top:-30%;
+}
+
+.patternBottom {
+    position: absolute;
+    width:600px;
+    height:600px;
+    right:-5%;
+    bottom:-50%;
+}
+
+.profileCard {
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    position: absolute;
+}
+
+.imageVictor { 
+    display:flex;
+    position: absolute;
+    border-radius: 99%;
+    border:solid white 5px; 
+    flex-wrap: wrap;
+    justify-content: center;
+    right:35%;
+    top:20%;
+
+}
+
+p {
+    background-color: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 59%);
+    display: block;
+}
+
+.line {
+    border-top: 1px solid #ccc;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.stats p {
+    line-height: 25px;
+
+}
+
+.stats p span {
+    font-weight:bold; 
+    background-color:none; 
+    color:black;
+    
+}
+
+@media only screen and (max-width:375px){
+
+    *{
+            width: 326px;
+            max-width: 326px;
+    
+    }
+}
